@@ -1,0 +1,369 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GradientValueProvider"
+provides-nominal:
+- "6Lottie21GradientValueProviderC"
+provides-member:
+- ["6Lottie21GradientValueProviderC", ""]
+provides-dynamic-lookup:
+- "block"
+- "colors"
+- "hasUpdate"
+- "locations"
+- "locationsBlock"
+- "updateValueArray"
+- "value"
+- "valueType"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private ">"
+- !private "??"
+- "AnyValueProvider"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "Color"
+- "Double"
+- !private "FloatLiteralType"
+- "GradientValueProvider"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["6Lottie16AnyValueProviderP", "Double"]
+- ["6Lottie16AnyValueProviderP", ""]
+- !private ["6Lottie16AnyValueProviderP", "block"]
+- !private ["6Lottie16AnyValueProviderP", "colors"]
+- ["6Lottie16AnyValueProviderP", "hasUpdate"]
+- !private ["6Lottie16AnyValueProviderP", "locations"]
+- !private ["6Lottie16AnyValueProviderP", "locationsBlock"]
+- !private ["6Lottie16AnyValueProviderP", "updateValueArray"]
+- ["6Lottie16AnyValueProviderP", "value"]
+- ["6Lottie16AnyValueProviderP", "valueType"]
+- !private ["Sa", "append"]
+- !private ["Sa", "callAsFunction"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "a"]
+- !private ["s10ArraySliceV", "b"]
+- !private ["s10ArraySliceV", "g"]
+- !private ["s10ArraySliceV", "r"]
+- !private ["SK", "a"]
+- !private ["SK", "append"]
+- !private ["SK", "b"]
+- !private ["SK", "callAsFunction"]
+- !private ["SK", "count"]
+- !private ["SK", "g"]
+- !private ["SK", "init"]
+- !private ["SK", "r"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "a"]
+- !private ["Sl", "append"]
+- !private ["Sl", "b"]
+- !private ["Sl", "callAsFunction"]
+- !private ["Sl", "count"]
+- !private ["Sl", "g"]
+- !private ["Sl", "init"]
+- !private ["Sl", "r"]
+- !private ["Sl", "subscript"]
+- !private ["6Lottie5ColorV", "a"]
+- !private ["6Lottie5ColorV", "b"]
+- !private ["6Lottie5ColorV", "g"]
+- !private ["6Lottie5ColorV", "r"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "a"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "b"]
+- !private ["10Foundation15ContiguousBytesP", "callAsFunction"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "g"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "r"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "a"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "b"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "g"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "r"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "a"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "b"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "g"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "r"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "a"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "b"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "g"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "r"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "a"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "b"]
+- !private ["10Foundation12DataProtocolP", "callAsFunction"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "g"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "r"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "a"]
+- !private ["Se", "append"]
+- !private ["Se", "b"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "count"]
+- !private ["Se", "g"]
+- !private ["Se", "init"]
+- !private ["Se", "r"]
+- !private ["Se", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "a"]
+- !private ["SE", "append"]
+- !private ["SE", "b"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "count"]
+- !private ["SE", "g"]
+- !private ["SE", "init"]
+- !private ["SE", "r"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "a"]
+- !private ["SQ", "append"]
+- !private ["SQ", "b"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "count"]
+- !private ["SQ", "g"]
+- !private ["SQ", "init"]
+- !private ["SQ", "r"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "a"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "b"]
+- !private ["s25ExpressibleByArrayLiteralP", "callAsFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "g"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "r"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "init"]
+- ["6Lottie21GradientValueProviderC", "Bool"]
+- ["6Lottie21GradientValueProviderC", "CGFloat"]
+- ["6Lottie21GradientValueProviderC", "Color"]
+- ["6Lottie21GradientValueProviderC", "ColorLocationsBlock"]
+- ["6Lottie21GradientValueProviderC", "ColorsValueBlock"]
+- ["6Lottie21GradientValueProviderC", "Double"]
+- !private ["6Lottie21GradientValueProviderC", "block"]
+- ["6Lottie21GradientValueProviderC", "colors"]
+- ["6Lottie21GradientValueProviderC", "deinit"]
+- ["6Lottie21GradientValueProviderC", "hasUpdate"]
+- ["6Lottie21GradientValueProviderC", "init"]
+- ["6Lottie21GradientValueProviderC", "locations"]
+- !private ["6Lottie21GradientValueProviderC", "locationsBlock"]
+- !private ["6Lottie21GradientValueProviderC", "updateValueArray"]
+- ["6Lottie21GradientValueProviderC", "value"]
+- ["6Lottie21GradientValueProviderC", "valueType"]
+- !private ["SH", "a"]
+- !private ["SH", "append"]
+- !private ["SH", "b"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "count"]
+- !private ["SH", "g"]
+- !private ["SH", "init"]
+- !private ["SH", "r"]
+- !private ["SH", "subscript"]
+- !private ["6Lottie14InterpolatableP", "a"]
+- !private ["6Lottie14InterpolatableP", "append"]
+- !private ["6Lottie14InterpolatableP", "b"]
+- !private ["6Lottie14InterpolatableP", "callAsFunction"]
+- !private ["6Lottie14InterpolatableP", "count"]
+- !private ["6Lottie14InterpolatableP", "g"]
+- !private ["6Lottie14InterpolatableP", "init"]
+- !private ["6Lottie14InterpolatableP", "r"]
+- !private ["6Lottie14InterpolatableP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "a"]
+- !private ["SM", "append"]
+- !private ["SM", "b"]
+- !private ["SM", "callAsFunction"]
+- !private ["SM", "count"]
+- !private ["SM", "g"]
+- !private ["SM", "init"]
+- !private ["SM", "r"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "callAsFunction"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sk", "a"]
+- !private ["Sk", "append"]
+- !private ["Sk", "b"]
+- !private ["Sk", "callAsFunction"]
+- !private ["Sk", "count"]
+- !private ["Sk", "g"]
+- !private ["Sk", "init"]
+- !private ["Sk", "r"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "a"]
+- !private ["Sm", "append"]
+- !private ["Sm", "b"]
+- !private ["Sm", "callAsFunction"]
+- !private ["Sm", "count"]
+- !private ["Sm", "g"]
+- !private ["Sm", "init"]
+- !private ["Sm", "r"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "a"]
+- !private ["ST", "append"]
+- !private ["ST", "b"]
+- !private ["ST", "callAsFunction"]
+- !private ["ST", "count"]
+- !private ["ST", "g"]
+- !private ["ST", "init"]
+- !private ["ST", "r"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "a"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "b"]
+- !private ["s14_ArrayProtocolP", "callAsFunction"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "g"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "r"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "a"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "b"]
+- !private ["s24_DestructorSafeContainerP", "callAsFunction"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "g"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "r"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "6Lottie16AnyValueProviderP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "6Lottie5ColorV"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- "6Lottie21GradientValueProviderC"
+- !private "SH"
+- !private "6Lottie14InterpolatableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2ed33d8fcba42e6ee3ee0d8930085e50"

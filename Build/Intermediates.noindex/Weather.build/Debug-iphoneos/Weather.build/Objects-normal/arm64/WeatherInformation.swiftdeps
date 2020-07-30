@@ -1,0 +1,475 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherInformation"
+provides-nominal:
+- "7Weather0A11InformationC"
+provides-member:
+- ["7Weather0A11InformationC", ""]
+provides-dynamic-lookup:
+- "conditionId"
+- "currentUTCTime"
+- "fahrenheit"
+- "humidity"
+- "latitude"
+- "longitude"
+- "parentLocation"
+- "pressure"
+- "sunRise"
+- "sunSet"
+- "temperature"
+- "timeZone"
+- "windSpeed"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "LinkingObjects"
+- "Object"
+- "StringLiteralType"
+- "WeatherInformation"
+- "WeatherModel"
+depends-member:
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "LinkingObjects"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "WeatherModel"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "conditionId"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "currentUTCTime"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "humidity"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "latitude"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "longitude"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "pressure"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sunRise"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sunSet"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "temperature"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "timeZone"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "windSpeed"]
+- ["SK", "init"]
+- ["s7CVarArgP", "LinkingObjects"]
+- ["s7CVarArgP", "WeatherModel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "conditionId"]
+- !private ["s7CVarArgP", "currentUTCTime"]
+- !private ["s7CVarArgP", "humidity"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "latitude"]
+- !private ["s7CVarArgP", "longitude"]
+- !private ["s7CVarArgP", "pressure"]
+- !private ["s7CVarArgP", "sunRise"]
+- !private ["s7CVarArgP", "sunSet"]
+- !private ["s7CVarArgP", "temperature"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["s7CVarArgP", "windSpeed"]
+- ["Sl", "init"]
+- ["s28CustomDebugStringConvertibleP", "LinkingObjects"]
+- ["s28CustomDebugStringConvertibleP", "WeatherModel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "conditionId"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUTCTime"]
+- !private ["s28CustomDebugStringConvertibleP", "humidity"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "latitude"]
+- !private ["s28CustomDebugStringConvertibleP", "longitude"]
+- !private ["s28CustomDebugStringConvertibleP", "pressure"]
+- !private ["s28CustomDebugStringConvertibleP", "sunRise"]
+- !private ["s28CustomDebugStringConvertibleP", "sunSet"]
+- !private ["s28CustomDebugStringConvertibleP", "temperature"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "windSpeed"]
+- ["s23CustomStringConvertibleP", "LinkingObjects"]
+- ["s23CustomStringConvertibleP", "WeatherModel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "conditionId"]
+- !private ["s23CustomStringConvertibleP", "currentUTCTime"]
+- !private ["s23CustomStringConvertibleP", "humidity"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "latitude"]
+- !private ["s23CustomStringConvertibleP", "longitude"]
+- !private ["s23CustomStringConvertibleP", "pressure"]
+- !private ["s23CustomStringConvertibleP", "sunRise"]
+- !private ["s23CustomStringConvertibleP", "sunSet"]
+- !private ["s23CustomStringConvertibleP", "temperature"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "windSpeed"]
+- ["SQ", "LinkingObjects"]
+- ["SQ", "WeatherModel"]
+- ["SQ", ""]
+- !private ["SQ", "conditionId"]
+- !private ["SQ", "currentUTCTime"]
+- !private ["SQ", "humidity"]
+- !private ["SQ", "init"]
+- !private ["SQ", "latitude"]
+- !private ["SQ", "longitude"]
+- !private ["SQ", "pressure"]
+- !private ["SQ", "sunRise"]
+- !private ["SQ", "sunSet"]
+- !private ["SQ", "temperature"]
+- !private ["SQ", "timeZone"]
+- !private ["SQ", "windSpeed"]
+- ["SH", "LinkingObjects"]
+- ["SH", "WeatherModel"]
+- ["SH", ""]
+- !private ["SH", "conditionId"]
+- !private ["SH", "currentUTCTime"]
+- !private ["SH", "humidity"]
+- !private ["SH", "init"]
+- !private ["SH", "latitude"]
+- !private ["SH", "longitude"]
+- !private ["SH", "pressure"]
+- !private ["SH", "sunRise"]
+- !private ["SH", "sunSet"]
+- !private ["SH", "temperature"]
+- !private ["SH", "timeZone"]
+- !private ["SH", "windSpeed"]
+- ["s22LazyCollectionProtocolP", "init"]
+- ["s20LazySequenceProtocolP", "init"]
+- ["10RealmSwift14LinkingObjectsV", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "LinkingObjects"]
+- ["So8NSObjectC", "WeatherModel"]
+- ["So8NSObjectC", "conditionId"]
+- ["So8NSObjectC", "currentUTCTime"]
+- ["So8NSObjectC", "fahrenheit"]
+- ["So8NSObjectC", "humidity"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "latitude"]
+- ["So8NSObjectC", "longitude"]
+- ["So8NSObjectC", "parentLocation"]
+- ["So8NSObjectC", "pressure"]
+- ["So8NSObjectC", "sunRise"]
+- ["So8NSObjectC", "sunSet"]
+- ["So8NSObjectC", "temperature"]
+- ["So8NSObjectC", "timeZone"]
+- ["So8NSObjectC", "windSpeed"]
+- ["So8NSObjectP", "LinkingObjects"]
+- ["So8NSObjectP", "WeatherModel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "conditionId"]
+- !private ["So8NSObjectP", "currentUTCTime"]
+- !private ["So8NSObjectP", "humidity"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "latitude"]
+- !private ["So8NSObjectP", "longitude"]
+- !private ["So8NSObjectP", "pressure"]
+- !private ["So8NSObjectP", "sunRise"]
+- !private ["So8NSObjectP", "sunSet"]
+- !private ["So8NSObjectP", "temperature"]
+- !private ["So8NSObjectP", "timeZone"]
+- !private ["So8NSObjectP", "windSpeed"]
+- ["10RealmSwift6ObjectC", "Bool"]
+- ["10RealmSwift6ObjectC", "Double"]
+- ["10RealmSwift6ObjectC", "Int"]
+- ["10RealmSwift6ObjectC", "LinkingObjects"]
+- ["10RealmSwift6ObjectC", "WeatherModel"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "conditionId"]
+- ["10RealmSwift6ObjectC", "currentUTCTime"]
+- ["10RealmSwift6ObjectC", "fahrenheit"]
+- ["10RealmSwift6ObjectC", "humidity"]
+- ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "latitude"]
+- ["10RealmSwift6ObjectC", "longitude"]
+- ["10RealmSwift6ObjectC", "parentLocation"]
+- ["10RealmSwift6ObjectC", "pressure"]
+- ["10RealmSwift6ObjectC", "sunRise"]
+- ["10RealmSwift6ObjectC", "sunSet"]
+- ["10RealmSwift6ObjectC", "temperature"]
+- ["10RealmSwift6ObjectC", "timeZone"]
+- ["10RealmSwift6ObjectC", "windSpeed"]
+- ["10RealmSwift20ObservableCollectionP", "init"]
+- ["7Combine16ObservableObjectP", "LinkingObjects"]
+- ["7Combine16ObservableObjectP", "WeatherModel"]
+- ["7Combine16ObservableObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "conditionId"]
+- !private ["7Combine16ObservableObjectP", "currentUTCTime"]
+- !private ["7Combine16ObservableObjectP", "humidity"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "latitude"]
+- !private ["7Combine16ObservableObjectP", "longitude"]
+- !private ["7Combine16ObservableObjectP", "pressure"]
+- !private ["7Combine16ObservableObjectP", "sunRise"]
+- !private ["7Combine16ObservableObjectP", "sunSet"]
+- !private ["7Combine16ObservableObjectP", "temperature"]
+- !private ["7Combine16ObservableObjectP", "timeZone"]
+- !private ["7Combine16ObservableObjectP", "windSpeed"]
+- ["So13RLMObjectBaseC", "Bool"]
+- ["So13RLMObjectBaseC", "Double"]
+- ["So13RLMObjectBaseC", "Int"]
+- ["So13RLMObjectBaseC", "LinkingObjects"]
+- ["So13RLMObjectBaseC", "WeatherModel"]
+- ["So13RLMObjectBaseC", "conditionId"]
+- ["So13RLMObjectBaseC", "currentUTCTime"]
+- ["So13RLMObjectBaseC", "fahrenheit"]
+- ["So13RLMObjectBaseC", "humidity"]
+- ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "latitude"]
+- ["So13RLMObjectBaseC", "longitude"]
+- ["So13RLMObjectBaseC", "parentLocation"]
+- ["So13RLMObjectBaseC", "pressure"]
+- ["So13RLMObjectBaseC", "sunRise"]
+- ["So13RLMObjectBaseC", "sunSet"]
+- ["So13RLMObjectBaseC", "temperature"]
+- ["So13RLMObjectBaseC", "timeZone"]
+- ["So13RLMObjectBaseC", "windSpeed"]
+- ["Sk", "init"]
+- ["10RealmSwift0A10CollectionP", "init"]
+- ["10RealmSwift0A14CollectionBaseP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "LinkingObjects"]
+- ["10RealmSwift0A15CollectionValueP", "WeatherModel"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- !private ["10RealmSwift0A15CollectionValueP", "conditionId"]
+- !private ["10RealmSwift0A15CollectionValueP", "currentUTCTime"]
+- !private ["10RealmSwift0A15CollectionValueP", "humidity"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "latitude"]
+- !private ["10RealmSwift0A15CollectionValueP", "longitude"]
+- !private ["10RealmSwift0A15CollectionValueP", "pressure"]
+- !private ["10RealmSwift0A15CollectionValueP", "sunRise"]
+- !private ["10RealmSwift0A15CollectionValueP", "sunSet"]
+- !private ["10RealmSwift0A15CollectionValueP", "temperature"]
+- !private ["10RealmSwift0A15CollectionValueP", "timeZone"]
+- !private ["10RealmSwift0A15CollectionValueP", "windSpeed"]
+- ["10RealmSwift0A12SubscribableP", "LinkingObjects"]
+- ["10RealmSwift0A12SubscribableP", "WeatherModel"]
+- ["10RealmSwift0A12SubscribableP", ""]
+- !private ["10RealmSwift0A12SubscribableP", "conditionId"]
+- !private ["10RealmSwift0A12SubscribableP", "currentUTCTime"]
+- !private ["10RealmSwift0A12SubscribableP", "humidity"]
+- ["10RealmSwift0A12SubscribableP", "init"]
+- !private ["10RealmSwift0A12SubscribableP", "latitude"]
+- !private ["10RealmSwift0A12SubscribableP", "longitude"]
+- !private ["10RealmSwift0A12SubscribableP", "pressure"]
+- !private ["10RealmSwift0A12SubscribableP", "sunRise"]
+- !private ["10RealmSwift0A12SubscribableP", "sunSet"]
+- !private ["10RealmSwift0A12SubscribableP", "temperature"]
+- !private ["10RealmSwift0A12SubscribableP", "timeZone"]
+- !private ["10RealmSwift0A12SubscribableP", "windSpeed"]
+- ["ST", "init"]
+- ["10RealmSwift14ThreadConfinedP", "LinkingObjects"]
+- ["10RealmSwift14ThreadConfinedP", "WeatherModel"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- !private ["10RealmSwift14ThreadConfinedP", "conditionId"]
+- !private ["10RealmSwift14ThreadConfinedP", "currentUTCTime"]
+- !private ["10RealmSwift14ThreadConfinedP", "humidity"]
+- ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "latitude"]
+- !private ["10RealmSwift14ThreadConfinedP", "longitude"]
+- !private ["10RealmSwift14ThreadConfinedP", "pressure"]
+- !private ["10RealmSwift14ThreadConfinedP", "sunRise"]
+- !private ["10RealmSwift14ThreadConfinedP", "sunSet"]
+- !private ["10RealmSwift14ThreadConfinedP", "temperature"]
+- !private ["10RealmSwift14ThreadConfinedP", "timeZone"]
+- !private ["10RealmSwift14ThreadConfinedP", "windSpeed"]
+- ["7Weather0A11InformationC", "Bool"]
+- ["7Weather0A11InformationC", "Double"]
+- ["7Weather0A11InformationC", "Int"]
+- ["7Weather0A11InformationC", "LinkingObjects"]
+- ["7Weather0A11InformationC", "WeatherModel"]
+- ["7Weather0A11InformationC", "conditionId"]
+- ["7Weather0A11InformationC", "currentUTCTime"]
+- ["7Weather0A11InformationC", "deinit"]
+- ["7Weather0A11InformationC", "fahrenheit"]
+- ["7Weather0A11InformationC", "humidity"]
+- ["7Weather0A11InformationC", "init"]
+- ["7Weather0A11InformationC", "latitude"]
+- ["7Weather0A11InformationC", "longitude"]
+- ["7Weather0A11InformationC", "parentLocation"]
+- ["7Weather0A11InformationC", "pressure"]
+- ["7Weather0A11InformationC", "sunRise"]
+- ["7Weather0A11InformationC", "sunSet"]
+- ["7Weather0A11InformationC", "temperature"]
+- ["7Weather0A11InformationC", "timeZone"]
+- ["7Weather0A11InformationC", "windSpeed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LinkingObjects"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "WeatherModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "conditionId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUTCTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "humidity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "latitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "longitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pressure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunRise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "temperature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windSpeed"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LinkingObjects"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "WeatherModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "conditionId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentUTCTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "humidity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "latitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "longitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pressure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunRise"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunSet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "temperature"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windSpeed"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "LinkingObjects"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "WeatherModel"]
+- ["10RealmSwift20_ManagedPropertyTypeP", ""]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "conditionId"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "currentUTCTime"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "humidity"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "latitude"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "longitude"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "pressure"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sunRise"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sunSet"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "temperature"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "timeZone"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "windSpeed"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "init"]
+depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "s22LazyCollectionProtocolP"
+- "s20LazySequenceProtocolP"
+- "10RealmSwift14LinkingObjectsV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- "10RealmSwift20ObservableCollectionP"
+- "7Combine16ObservableObjectP"
+- "So13RLMObjectBaseC"
+- "Sk"
+- "10RealmSwift0A10CollectionP"
+- "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- "10RealmSwift0A12SubscribableP"
+- "ST"
+- "10RealmSwift14ThreadConfinedP"
+- "7Weather0A11InformationC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
+- "10RealmSwift01_A20CollectionEnumeratorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/gooey-cell/gooey_cell.framework/Modules/gooey_cell.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POP.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/gooey-cell/gooey_cell.framework/Headers/gooey-cell-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/pop-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimator.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPVector.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPDefines.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimatablePropertyTypes.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/gooey-cell/gooey_cell.framework/Headers/gooey_cell-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPGeometry.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/lottie-ios/Lottie.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/gooey-cell/gooey_cell.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/pop/pop.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b4b7c7bcb74425b1657db561b4933296"

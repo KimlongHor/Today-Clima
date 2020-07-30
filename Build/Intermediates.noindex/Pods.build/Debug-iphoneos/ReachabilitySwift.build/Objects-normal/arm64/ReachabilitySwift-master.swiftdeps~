@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e81c458b22a3a594c18b0c6e1420dbdc"
+build_time: [1595551055, 55982000]
+inputs:
+  "/Users/horkimlong/Desktop/Weather/Pods/ReachabilitySwift/Sources/Reachability.swift": [1595454151, 133896799]

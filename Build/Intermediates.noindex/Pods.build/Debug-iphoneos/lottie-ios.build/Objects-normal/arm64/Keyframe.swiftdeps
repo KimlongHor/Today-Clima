@@ -1,0 +1,295 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Keyframe"
+- "KeyframeData"
+provides-nominal:
+- "6Lottie8KeyframeC"
+- "6Lottie12KeyframeDataC"
+- "6Lottie12KeyframeDataC10CodingKeysO"
+provides-member:
+- ["6Lottie8KeyframeC", ""]
+- ["6Lottie12KeyframeDataC", ""]
+- ["6Lottie12KeyframeDataC10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "Codable"
+- "CodingKey"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Interpolatable"
+- "Keyframe"
+- "KeyframeData"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "Vector2D"
+- "Vector3D"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "=="]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "RawValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "_Default_RawValue"]
+- !private ["6Lottie12KeyframeDataC10CodingKeysO", "_findStringSwitchCase"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "_rawHashValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "debugDescription"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "deinit"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "description"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "endValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "hash"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "hashValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "hold"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "inTangent"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "init"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "intValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "outTangent"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "rawValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "spatialInTangent"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "spatialOutTangent"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "startValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "stringValue"]
+- ["6Lottie12KeyframeDataC10CodingKeysO", "time"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "encode"]
+- !private ["Se", "endValue"]
+- !private ["Se", "hold"]
+- !private ["Se", "inTangent"]
+- ["Se", "init"]
+- !private ["Se", "outTangent"]
+- !private ["Se", "spatialInTangent"]
+- !private ["Se", "spatialOutTangent"]
+- !private ["Se", "startValue"]
+- !private ["Se", "time"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "encode"]
+- !private ["SE", "endValue"]
+- !private ["SE", "hold"]
+- !private ["SE", "inTangent"]
+- ["SE", "init"]
+- !private ["SE", "outTangent"]
+- !private ["SE", "spatialInTangent"]
+- !private ["SE", "spatialOutTangent"]
+- !private ["SE", "startValue"]
+- !private ["SE", "time"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["6Lottie14InterpolatableP", "init"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["6Lottie8KeyframeC", "Bool"]
+- ["6Lottie8KeyframeC", "CGFloat"]
+- ["6Lottie8KeyframeC", "Double"]
+- ["6Lottie8KeyframeC", "Vector2D"]
+- ["6Lottie8KeyframeC", "Vector3D"]
+- ["6Lottie8KeyframeC", "deinit"]
+- ["6Lottie8KeyframeC", "inTangent"]
+- ["6Lottie8KeyframeC", "init"]
+- ["6Lottie8KeyframeC", "isHold"]
+- ["6Lottie8KeyframeC", "outTangent"]
+- ["6Lottie8KeyframeC", "spatialInTangent"]
+- ["6Lottie8KeyframeC", "spatialOutTangent"]
+- ["6Lottie8KeyframeC", "time"]
+- ["6Lottie8KeyframeC", "value"]
+- ["6Lottie12KeyframeDataC", "Bool"]
+- ["6Lottie12KeyframeDataC", "CodingKey"]
+- ["6Lottie12KeyframeDataC", "CodingKeys"]
+- ["6Lottie12KeyframeDataC", "Double"]
+- ["6Lottie12KeyframeDataC", "Int"]
+- ["6Lottie12KeyframeDataC", "String"]
+- ["6Lottie12KeyframeDataC", "Vector2D"]
+- ["6Lottie12KeyframeDataC", "Vector3D"]
+- !private ["6Lottie12KeyframeDataC", "_findStringSwitchCase"]
+- ["6Lottie12KeyframeDataC", "deinit"]
+- ["6Lottie12KeyframeDataC", "encode"]
+- ["6Lottie12KeyframeDataC", "endValue"]
+- ["6Lottie12KeyframeDataC", "hold"]
+- ["6Lottie12KeyframeDataC", "inTangent"]
+- ["6Lottie12KeyframeDataC", "init"]
+- ["6Lottie12KeyframeDataC", "isHold"]
+- ["6Lottie12KeyframeDataC", "outTangent"]
+- ["6Lottie12KeyframeDataC", "spatialInTangent"]
+- ["6Lottie12KeyframeDataC", "spatialOutTangent"]
+- ["6Lottie12KeyframeDataC", "startValue"]
+- ["6Lottie12KeyframeDataC", "time"]
+- !private ["Sj", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- ["6Lottie8Vector2DV", "deinit"]
+- ["6Lottie8Vector3DV", "deinit"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "6Lottie12KeyframeDataC10CodingKeysO"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- "SH"
+- !private "6Lottie14InterpolatableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "6Lottie8KeyframeC"
+- "6Lottie12KeyframeDataC"
+- !private "Sj"
+- "SY"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "6Lottie8Vector2DV"
+- "6Lottie8Vector3DV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "141f477dea0080cb7df07ab9a75206f6"

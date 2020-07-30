@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/lottie-ios/Lottie.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/unextended-module.modulemap",
+    }]
+  }]
+}

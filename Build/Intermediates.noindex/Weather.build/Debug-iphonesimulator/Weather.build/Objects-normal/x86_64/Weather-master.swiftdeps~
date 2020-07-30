@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "d634e447c827a2fd650d53f6b689f7e2"
+build_time: [1596067094, 908209000]
+inputs:
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Weather/WeatherManager.swift": [1596067093, 904237107]
+  "/Users/horkimlong/Desktop/Weather/Weather/Controllers/LocationViewController.swift": [1595989044, 10952875]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/City/CityManager.swift": [1593471777, 952306605]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/City/CityData.swift": [1593386243, 21987397]
+  "/Users/horkimlong/Desktop/Weather/Weather/AppDelegate.swift": [1595972801, 356823816]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/City/CityModel.swift": [1593386489, 21469712]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Weather/WeatherModel.swift": [1593212947, 317161303]
+  "/Users/horkimlong/Desktop/Weather/Weather/SceneDelegate.swift": [1592950430, 999240345]
+  "/Users/horkimlong/Desktop/Weather/Weather/Constant.swift": [1596067093, 869041800]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Weather/WeatherInformation.swift": [1594333338, 404479302]
+  "/Users/horkimlong/Desktop/Weather/Weather/Views/FullCityNameTableViewCell.swift": [1595990523, 314289846]
+  "/Users/horkimlong/Desktop/Weather/Weather/Views/LocationWeatherTableViewCell.swift": [1595990298, 217223689]
+  "/Users/horkimlong/Desktop/Weather/Weather/Controllers/CityAddViewController.swift": [1594681845, 565045101]
+  "/Users/horkimlong/Desktop/Weather/Weather/ProgressIndicator.swift": [1595546388, 211005108]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Location/LocationManager.swift": [1593467922, 284303662]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Weather/WeatherData.swift": [1593728910, 406936084]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Location/LocationModel.swift": [1593375037, 718320908]
+  "/Users/horkimlong/Desktop/Weather/Weather/Models/Location/LocationData.swift": [1593375154, 890847005]
+  "/Users/horkimlong/Desktop/Weather/Weather/Controllers/InformationViewController.swift": [1595990606, 332040654]

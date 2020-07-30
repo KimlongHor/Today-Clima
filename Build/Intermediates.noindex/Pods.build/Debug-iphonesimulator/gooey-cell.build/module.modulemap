@@ -1,0 +1,11 @@
+framework module gooey_cell {
+  umbrella header "gooey-cell-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module gooey_cell.Swift {
+    header "gooey_cell-Swift.h"
+    requires objc
+}

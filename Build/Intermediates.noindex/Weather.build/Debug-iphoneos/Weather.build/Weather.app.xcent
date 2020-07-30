@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>ZTH4C6ABZ2.com.horkimlong.Weather</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>ZTH4C6ABZ2</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>ZTH4C6ABZ2.com.horkimlong.Weather</string>
+	</array>
+</dict>
+</plist>

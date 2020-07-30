@@ -1,0 +1,10 @@
+framework module gooey_cell {
+  umbrella header "gooey-cell-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module gooey_cell.__Swift {
+    exclude header "gooey_cell-Swift.h"
+}

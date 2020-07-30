@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e7837be8dccfed57116273acd09f1cb8"
+build_time: [1596061689, 616113000]
+inputs:
+  "/Users/horkimlong/Desktop/Weather/Pods/gooey-cell/gooey-cell/Classes/GooeyEffect.swift": [1595551050, 979054915]
+  "/Users/horkimlong/Desktop/Weather/Pods/gooey-cell/gooey-cell/Classes/GooeyEffectTableViewCell.swift": [1595551050, 976942868]

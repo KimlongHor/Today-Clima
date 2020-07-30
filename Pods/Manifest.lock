@@ -1,0 +1,38 @@
+PODS:
+  - gooey-cell (0.1.0):
+    - pop (~> 1.0)
+  - lottie-ios (3.1.8)
+  - pop (1.0.12)
+  - ReachabilitySwift (5.0.0)
+  - Realm (5.0.2):
+    - Realm/Headers (= 5.0.2)
+  - Realm/Headers (5.0.2)
+  - RealmSwift (5.0.2):
+    - Realm (= 5.0.2)
+
+DEPENDENCIES:
+  - gooey-cell
+  - lottie-ios
+  - ReachabilitySwift
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - gooey-cell
+    - lottie-ios
+    - pop
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  gooey-cell: ed8d8fa67b57dfca89e655faf8c30ac5fd71c46d
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: 6b6f096671b64b04d08974177cabb2ff9343d153
+  RealmSwift: a3db6be0488bf3e1d5314c2956cefe98a65cdd01
+
+PODFILE CHECKSUM: 044753ab06fcdbaf0bb55e23b50548448385891c
+
+COCOAPODS: 1.8.4

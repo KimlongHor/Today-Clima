@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphoneos/gooey-cell/gooey_cell.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/gooey-cell.build/unextended-module.modulemap",
+    }]
+  }]
+}

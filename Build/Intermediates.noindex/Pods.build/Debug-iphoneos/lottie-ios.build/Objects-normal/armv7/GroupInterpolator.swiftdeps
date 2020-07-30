@@ -1,0 +1,174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupInterpolator"
+provides-nominal:
+- "6Lottie17GroupInterpolatorC"
+provides-member:
+- ["6Lottie17GroupInterpolatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AnyValueProvider"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- !private "CastingPrecedence"
+- "ContiguousArray"
+- "GroupInterpolator"
+- "Interpolatable"
+- "Keyframe"
+- "KeyframeInterpolator"
+depends-member:
+- !private ["6Lottie16AnyValueProviderP", "ContiguousArray"]
+- !private ["6Lottie16AnyValueProviderP", "KeyframeInterpolator"]
+- ["6Lottie16AnyValueProviderP", ""]
+- ["6Lottie16AnyValueProviderP", "hasUpdate"]
+- !private ["6Lottie16AnyValueProviderP", "init"]
+- !private ["6Lottie16AnyValueProviderP", "keyframeInterpolators"]
+- ["6Lottie16AnyValueProviderP", "value"]
+- ["6Lottie16AnyValueProviderP", "valueType"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["s15ContiguousArrayV", "first"]
+- !private ["s15ContiguousArrayV", "init"]
+- !private ["s15ContiguousArrayV", "map"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- ["6Lottie17GroupInterpolatorC", "Bool"]
+- ["6Lottie17GroupInterpolatorC", "CGFloat"]
+- ["6Lottie17GroupInterpolatorC", "ContiguousArray"]
+- ["6Lottie17GroupInterpolatorC", "Keyframe"]
+- ["6Lottie17GroupInterpolatorC", "KeyframeInterpolator"]
+- ["6Lottie17GroupInterpolatorC", "deinit"]
+- ["6Lottie17GroupInterpolatorC", "hasUpdate"]
+- ["6Lottie17GroupInterpolatorC", "init"]
+- ["6Lottie17GroupInterpolatorC", "keyframeInterpolators"]
+- ["6Lottie17GroupInterpolatorC", "value"]
+- ["6Lottie17GroupInterpolatorC", "valueType"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["6Lottie20KeyframeInterpolatorC", "deinit"]
+- !private ["6Lottie20KeyframeInterpolatorC", "hasUpdate"]
+- !private ["6Lottie20KeyframeInterpolatorC", "init"]
+- !private ["6Lottie20KeyframeInterpolatorC", "value"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+depends-nominal:
+- "6Lottie16AnyValueProviderP"
+- !private "SK"
+- !private "Sl"
+- !private "s15ContiguousArrayV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "6Lottie17GroupInterpolatorC"
+- !private "SH"
+- !private "6Lottie20KeyframeInterpolatorC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c205e9bba09f9da961f1b94569b3c340"

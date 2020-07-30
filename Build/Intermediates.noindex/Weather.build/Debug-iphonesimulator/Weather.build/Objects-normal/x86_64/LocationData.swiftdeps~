@@ -1,0 +1,445 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationData"
+- "Embedded"
+- "CitySearchResult"
+- "CitySearchResultLinks"
+- "SelfClass"
+provides-nominal:
+- "7Weather12LocationDataV"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather8EmbeddedV"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather16CitySearchResultV"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather9SelfClassV"
+provides-member:
+- ["7Weather12LocationDataV", ""]
+- ["7Weather12LocationDataV10CodingKeysO", ""]
+- ["7Weather8EmbeddedV", ""]
+- ["7Weather8EmbeddedV10CodingKeysO", ""]
+- ["7Weather16CitySearchResultV", ""]
+- ["7Weather16CitySearchResultV10CodingKeysO", ""]
+- ["7Weather21CitySearchResultLinksV", ""]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", ""]
+- ["7Weather9SelfClassV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CitySearchResult"
+- "CitySearchResultLinks"
+- "Codable"
+- "CodingKey"
+- "Embedded"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LocationData"
+- "SelfClass"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["7Weather16CitySearchResultV", "CitySearchResultLinks"]
+- ["7Weather16CitySearchResultV", "CodingKey"]
+- ["7Weather16CitySearchResultV", "CodingKeys"]
+- ["7Weather16CitySearchResultV", "String"]
+- !private ["7Weather16CitySearchResultV", "_findStringSwitchCase"]
+- ["7Weather16CitySearchResultV", "deinit"]
+- ["7Weather16CitySearchResultV", "encode"]
+- ["7Weather16CitySearchResultV", "init"]
+- ["7Weather16CitySearchResultV", "links"]
+- ["7Weather16CitySearchResultV", "matchingFullName"]
+- ["7Weather21CitySearchResultLinksV", "CodingKey"]
+- ["7Weather21CitySearchResultLinksV", "CodingKeys"]
+- ["7Weather21CitySearchResultLinksV", "SelfClass"]
+- ["7Weather21CitySearchResultLinksV", "String"]
+- !private ["7Weather21CitySearchResultLinksV", "_findStringSwitchCase"]
+- ["7Weather21CitySearchResultLinksV", "cityItem"]
+- ["7Weather21CitySearchResultLinksV", "deinit"]
+- ["7Weather21CitySearchResultLinksV", "encode"]
+- ["7Weather21CitySearchResultLinksV", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["7Weather12LocationDataV10CodingKeysO", "=="]
+- ["7Weather16CitySearchResultV10CodingKeysO", "=="]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "=="]
+- ["7Weather8EmbeddedV10CodingKeysO", "=="]
+- ["7Weather12LocationDataV10CodingKeysO", "RawValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "RawValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "RawValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "RawValue"]
+- ["7Weather12LocationDataV10CodingKeysO", "_Default_RawValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "_Default_RawValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "_Default_RawValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "_Default_RawValue"]
+- !private ["7Weather12LocationDataV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["7Weather16CitySearchResultV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["7Weather21CitySearchResultLinksV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["7Weather8EmbeddedV10CodingKeysO", "_findStringSwitchCase"]
+- ["7Weather12LocationDataV10CodingKeysO", "_rawHashValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "_rawHashValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "_rawHashValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "_rawHashValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "cityItem"]
+- ["7Weather8EmbeddedV10CodingKeysO", "citySearchResults"]
+- ["7Weather12LocationDataV10CodingKeysO", "debugDescription"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "debugDescription"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "debugDescription"]
+- ["7Weather8EmbeddedV10CodingKeysO", "debugDescription"]
+- ["7Weather12LocationDataV10CodingKeysO", "deinit"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "deinit"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "deinit"]
+- ["7Weather8EmbeddedV10CodingKeysO", "deinit"]
+- ["7Weather12LocationDataV10CodingKeysO", "description"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "description"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "description"]
+- ["7Weather8EmbeddedV10CodingKeysO", "description"]
+- ["7Weather12LocationDataV10CodingKeysO", "embedded"]
+- ["7Weather12LocationDataV10CodingKeysO", "hash"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "hash"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "hash"]
+- ["7Weather8EmbeddedV10CodingKeysO", "hash"]
+- ["7Weather12LocationDataV10CodingKeysO", "hashValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "hashValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "hashValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "hashValue"]
+- ["7Weather12LocationDataV10CodingKeysO", "init"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "init"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "init"]
+- ["7Weather8EmbeddedV10CodingKeysO", "init"]
+- ["7Weather12LocationDataV10CodingKeysO", "intValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "intValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "intValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "intValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "links"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "matchingFullName"]
+- ["7Weather12LocationDataV10CodingKeysO", "rawValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "rawValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "rawValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "rawValue"]
+- ["7Weather12LocationDataV10CodingKeysO", "stringValue"]
+- ["7Weather16CitySearchResultV10CodingKeysO", "stringValue"]
+- ["7Weather21CitySearchResultLinksV10CodingKeysO", "stringValue"]
+- ["7Weather8EmbeddedV10CodingKeysO", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "cityItem"]
+- !private ["Se", "citySearchResults"]
+- !private ["Se", "embedded"]
+- ["Se", "encode"]
+- !private ["Se", "href"]
+- ["Se", "init"]
+- !private ["Se", "links"]
+- !private ["Se", "matchingFullName"]
+- !private ["s7DecoderP", "container"]
+- ["7Weather8EmbeddedV", "CitySearchResult"]
+- ["7Weather8EmbeddedV", "CodingKey"]
+- ["7Weather8EmbeddedV", "CodingKeys"]
+- ["7Weather8EmbeddedV", "String"]
+- !private ["7Weather8EmbeddedV", "_findStringSwitchCase"]
+- ["7Weather8EmbeddedV", "citySearchResults"]
+- ["7Weather8EmbeddedV", "deinit"]
+- ["7Weather8EmbeddedV", "encode"]
+- ["7Weather8EmbeddedV", "init"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "cityItem"]
+- !private ["SE", "citySearchResults"]
+- !private ["SE", "embedded"]
+- ["SE", "encode"]
+- !private ["SE", "href"]
+- ["SE", "init"]
+- !private ["SE", "links"]
+- !private ["SE", "matchingFullName"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["7Weather12LocationDataV", "CodingKey"]
+- ["7Weather12LocationDataV", "CodingKeys"]
+- ["7Weather12LocationDataV", "Embedded"]
+- ["7Weather12LocationDataV", "String"]
+- !private ["7Weather12LocationDataV", "_findStringSwitchCase"]
+- ["7Weather12LocationDataV", "deinit"]
+- ["7Weather12LocationDataV", "embedded"]
+- ["7Weather12LocationDataV", "encode"]
+- ["7Weather12LocationDataV", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["7Weather9SelfClassV", "String"]
+- ["7Weather9SelfClassV", "deinit"]
+- ["7Weather9SelfClassV", "encode"]
+- ["7Weather9SelfClassV", "href"]
+- ["7Weather9SelfClassV", "init"]
+depends-nominal:
+- "7Weather16CitySearchResultV"
+- "7Weather21CitySearchResultLinksV"
+- "s9CodingKeyP"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- !private "7Weather12LocationDataV10CodingKeysO"
+- !private "7Weather16CitySearchResultV10CodingKeysO"
+- !private "7Weather21CitySearchResultLinksV10CodingKeysO"
+- !private "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "7Weather12LocationDataV10CodingKeysO"
+- "7Weather16CitySearchResultV10CodingKeysO"
+- "7Weather21CitySearchResultLinksV10CodingKeysO"
+- "7Weather8EmbeddedV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "7Weather8EmbeddedV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "7Weather12LocationDataV"
+- "SY"
+- "7Weather9SelfClassV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Modules/gooey_cell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POP.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Headers/gooey-cell-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/pop-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimator.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPVector.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDefines.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatablePropertyTypes.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Headers/gooey_cell-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPGeometry.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "084bed3fa1a1434ac5595bc4edc494c2"

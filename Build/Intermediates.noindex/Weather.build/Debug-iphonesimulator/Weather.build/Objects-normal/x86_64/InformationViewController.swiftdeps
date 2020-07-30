@@ -1,0 +1,1285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InformationViewController"
+provides-nominal:
+- "7Weather25InformationViewControllerC"
+provides-member:
+- ["7Weather25InformationViewControllerC", ""]
+provides-dynamic-lookup:
+- "backgroundColorImage"
+- "checkDayOrNight"
+- "cityNameLabel"
+- "getSunriseTimeString"
+- "getSunsetTimeString"
+- "humidityLabel"
+- "returnButtonPressed"
+- "selectedLocation"
+- "sunOrMoonImage"
+- "sunRiseLabel"
+- "sunSetLabel"
+- "temperatureLabel"
+- "unixToUTC"
+- "viewDidLoad"
+- "windSpeedLabel"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Date"
+- !private "DateFormatter"
+- "Double"
+- !private "FloatLiteralType"
+- "InformationViewController"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "NSLocale"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeZone"
+- "UIButton"
+- !private "UIFont"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UIViewController"
+- !private "UserDefaults"
+- "WeatherModel"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "cityName"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "humidity"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "information"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sunRise"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sunSet"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "temperature"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "timeZone"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "windSpeed"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSLocale"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TimeZone"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColorImage"]
+- !private ["s7CVarArgP", "bool"]
+- !private ["s7CVarArgP", "checkDayOrNight"]
+- !private ["s7CVarArgP", "cityName"]
+- !private ["s7CVarArgP", "cityNameLabel"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "getSunriseTimeString"]
+- !private ["s7CVarArgP", "getSunsetTimeString"]
+- !private ["s7CVarArgP", "humidity"]
+- !private ["s7CVarArgP", "humidityLabel"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "information"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "selectedLocation"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "sunOrMoonImage"]
+- !private ["s7CVarArgP", "sunRise"]
+- !private ["s7CVarArgP", "sunRiseLabel"]
+- !private ["s7CVarArgP", "sunSet"]
+- !private ["s7CVarArgP", "sunSetLabel"]
+- !private ["s7CVarArgP", "temperature"]
+- !private ["s7CVarArgP", "temperatureLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["s7CVarArgP", "unixToUTC"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "windSpeed"]
+- !private ["s7CVarArgP", "windSpeedLabel"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocale"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColorImage"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "checkDayOrNight"]
+- !private ["s28CustomDebugStringConvertibleP", "cityName"]
+- !private ["s28CustomDebugStringConvertibleP", "cityNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "getSunriseTimeString"]
+- !private ["s28CustomDebugStringConvertibleP", "getSunsetTimeString"]
+- !private ["s28CustomDebugStringConvertibleP", "humidity"]
+- !private ["s28CustomDebugStringConvertibleP", "humidityLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "information"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "sunOrMoonImage"]
+- !private ["s28CustomDebugStringConvertibleP", "sunRise"]
+- !private ["s28CustomDebugStringConvertibleP", "sunRiseLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "sunSet"]
+- !private ["s28CustomDebugStringConvertibleP", "sunSetLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "temperature"]
+- !private ["s28CustomDebugStringConvertibleP", "temperatureLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "unixToUTC"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "windSpeed"]
+- !private ["s28CustomDebugStringConvertibleP", "windSpeedLabel"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "font"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "image"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "text"]
+- !private ["s17CustomReflectableP", "font"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSLocale"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeZone"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColorImage"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "checkDayOrNight"]
+- !private ["s23CustomStringConvertibleP", "cityName"]
+- !private ["s23CustomStringConvertibleP", "cityNameLabel"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "getSunriseTimeString"]
+- !private ["s23CustomStringConvertibleP", "getSunsetTimeString"]
+- !private ["s23CustomStringConvertibleP", "humidity"]
+- !private ["s23CustomStringConvertibleP", "humidityLabel"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "information"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "selectedLocation"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "sunOrMoonImage"]
+- !private ["s23CustomStringConvertibleP", "sunRise"]
+- !private ["s23CustomStringConvertibleP", "sunRiseLabel"]
+- !private ["s23CustomStringConvertibleP", "sunSet"]
+- !private ["s23CustomStringConvertibleP", "sunSetLabel"]
+- !private ["s23CustomStringConvertibleP", "temperature"]
+- !private ["s23CustomStringConvertibleP", "temperatureLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "unixToUTC"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "windSpeed"]
+- !private ["s23CustomStringConvertibleP", "windSpeedLabel"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", "font"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["Sd", "init"]
+- !private ["SE", "font"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSLocale"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TimeZone"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColorImage"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "checkDayOrNight"]
+- !private ["SQ", "cityName"]
+- !private ["SQ", "cityNameLabel"]
+- !private ["SQ", "current"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "font"]
+- !private ["SQ", "getSunriseTimeString"]
+- !private ["SQ", "getSunsetTimeString"]
+- !private ["SQ", "humidity"]
+- !private ["SQ", "humidityLabel"]
+- !private ["SQ", "image"]
+- !private ["SQ", "information"]
+- !private ["SQ", "init"]
+- !private ["SQ", "locale"]
+- !private ["SQ", "selectedLocation"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "string"]
+- !private ["SQ", "sunOrMoonImage"]
+- !private ["SQ", "sunRise"]
+- !private ["SQ", "sunRiseLabel"]
+- !private ["SQ", "sunSet"]
+- !private ["SQ", "sunSetLabel"]
+- !private ["SQ", "temperature"]
+- !private ["SQ", "temperatureLabel"]
+- !private ["SQ", "text"]
+- !private ["SQ", "timeZone"]
+- !private ["SQ", "unixToUTC"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "windSpeed"]
+- !private ["SQ", "windSpeedLabel"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "font"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "timeZone"]
+- !private ["SH", "Date"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSLocale"]
+- !private ["SH", "String"]
+- !private ["SH", "TimeZone"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "backgroundColorImage"]
+- !private ["SH", "bool"]
+- !private ["SH", "checkDayOrNight"]
+- !private ["SH", "cityName"]
+- !private ["SH", "cityNameLabel"]
+- !private ["SH", "current"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "font"]
+- !private ["SH", "getSunriseTimeString"]
+- !private ["SH", "getSunsetTimeString"]
+- !private ["SH", "humidity"]
+- !private ["SH", "humidityLabel"]
+- !private ["SH", "image"]
+- !private ["SH", "information"]
+- !private ["SH", "init"]
+- !private ["SH", "locale"]
+- !private ["SH", "selectedLocation"]
+- !private ["SH", "standard"]
+- !private ["SH", "string"]
+- !private ["SH", "sunOrMoonImage"]
+- !private ["SH", "sunRise"]
+- !private ["SH", "sunRiseLabel"]
+- !private ["SH", "sunSet"]
+- !private ["SH", "sunSetLabel"]
+- !private ["SH", "temperature"]
+- !private ["SH", "temperatureLabel"]
+- !private ["SH", "text"]
+- !private ["SH", "timeZone"]
+- !private ["SH", "unixToUTC"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "windSpeed"]
+- !private ["SH", "windSpeedLabel"]
+- ["7Weather25InformationViewControllerC", "Bool"]
+- !private ["7Weather25InformationViewControllerC", "Date"]
+- !private ["7Weather25InformationViewControllerC", "DateFormatter"]
+- ["7Weather25InformationViewControllerC", "Double"]
+- !private ["7Weather25InformationViewControllerC", "Int"]
+- !private ["7Weather25InformationViewControllerC", "NSLocale"]
+- ["7Weather25InformationViewControllerC", "String"]
+- !private ["7Weather25InformationViewControllerC", "TimeZone"]
+- ["7Weather25InformationViewControllerC", "UIButton"]
+- !private ["7Weather25InformationViewControllerC", "UIFont"]
+- !private ["7Weather25InformationViewControllerC", "UIImage"]
+- ["7Weather25InformationViewControllerC", "UIImageView"]
+- ["7Weather25InformationViewControllerC", "UILabel"]
+- !private ["7Weather25InformationViewControllerC", "UserDefaults"]
+- ["7Weather25InformationViewControllerC", "WeatherModel"]
+- ["7Weather25InformationViewControllerC", "backgroundColorImage"]
+- ["7Weather25InformationViewControllerC", "checkDayOrNight"]
+- ["7Weather25InformationViewControllerC", "cityNameLabel"]
+- ["7Weather25InformationViewControllerC", "deinit"]
+- !private ["7Weather25InformationViewControllerC", "dismiss"]
+- ["7Weather25InformationViewControllerC", "getSunriseTimeString"]
+- ["7Weather25InformationViewControllerC", "getSunsetTimeString"]
+- ["7Weather25InformationViewControllerC", "humidityLabel"]
+- ["7Weather25InformationViewControllerC", "init"]
+- ["7Weather25InformationViewControllerC", "returnButtonPressed"]
+- ["7Weather25InformationViewControllerC", "selectedLocation"]
+- ["7Weather25InformationViewControllerC", "sunOrMoonImage"]
+- ["7Weather25InformationViewControllerC", "sunRiseLabel"]
+- ["7Weather25InformationViewControllerC", "sunSetLabel"]
+- ["7Weather25InformationViewControllerC", "temperatureLabel"]
+- ["7Weather25InformationViewControllerC", "unixToUTC"]
+- ["7Weather25InformationViewControllerC", "viewDidLoad"]
+- ["7Weather25InformationViewControllerC", "windSpeedLabel"]
+- !private ["Si", "init"]
+- !private ["6Lottie14InterpolatableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "DateFormatter"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSLocale"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "TimeZone"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColorImage"]
+- !private ["So8NSCodingP", "checkDayOrNight"]
+- !private ["So8NSCodingP", "cityNameLabel"]
+- !private ["So8NSCodingP", "current"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "getSunriseTimeString"]
+- !private ["So8NSCodingP", "getSunsetTimeString"]
+- !private ["So8NSCodingP", "humidityLabel"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "selectedLocation"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "sunOrMoonImage"]
+- !private ["So8NSCodingP", "sunRiseLabel"]
+- !private ["So8NSCodingP", "sunSetLabel"]
+- !private ["So8NSCodingP", "temperatureLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So8NSCodingP", "unixToUTC"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "windSpeedLabel"]
+- !private ["So9NSCopyingP", "current"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So26NSExtensionRequestHandlingP", "Date"]
+- !private ["So26NSExtensionRequestHandlingP", "DateFormatter"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLocale"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "TimeZone"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "backgroundColorImage"]
+- !private ["So26NSExtensionRequestHandlingP", "checkDayOrNight"]
+- !private ["So26NSExtensionRequestHandlingP", "cityNameLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "getSunriseTimeString"]
+- !private ["So26NSExtensionRequestHandlingP", "getSunsetTimeString"]
+- !private ["So26NSExtensionRequestHandlingP", "humidityLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "sunOrMoonImage"]
+- !private ["So26NSExtensionRequestHandlingP", "sunRiseLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "sunSetLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "temperatureLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "unixToUTC"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "windSpeedLabel"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSLocaleC", "current"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSLocale"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeZone"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "WeatherModel"]
+- ["So8NSObjectC", "backgroundColorImage"]
+- !private ["So8NSObjectC", "bool"]
+- ["So8NSObjectC", "checkDayOrNight"]
+- !private ["So8NSObjectC", "cityName"]
+- ["So8NSObjectC", "cityNameLabel"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "getSunriseTimeString"]
+- ["So8NSObjectC", "getSunsetTimeString"]
+- !private ["So8NSObjectC", "humidity"]
+- ["So8NSObjectC", "humidityLabel"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "information"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "returnButtonPressed"]
+- ["So8NSObjectC", "selectedLocation"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "sunOrMoonImage"]
+- !private ["So8NSObjectC", "sunRise"]
+- ["So8NSObjectC", "sunRiseLabel"]
+- !private ["So8NSObjectC", "sunSet"]
+- ["So8NSObjectC", "sunSetLabel"]
+- !private ["So8NSObjectC", "temperature"]
+- ["So8NSObjectC", "temperatureLabel"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "timeZone"]
+- ["So8NSObjectC", "unixToUTC"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "windSpeed"]
+- ["So8NSObjectC", "windSpeedLabel"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSLocale"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "TimeZone"]
+- !private ["So8NSObjectP", "UIFont"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColorImage"]
+- !private ["So8NSObjectP", "bool"]
+- !private ["So8NSObjectP", "checkDayOrNight"]
+- !private ["So8NSObjectP", "cityName"]
+- !private ["So8NSObjectP", "cityNameLabel"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "getSunriseTimeString"]
+- !private ["So8NSObjectP", "getSunsetTimeString"]
+- !private ["So8NSObjectP", "humidity"]
+- !private ["So8NSObjectP", "humidityLabel"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "information"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "selectedLocation"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "sunOrMoonImage"]
+- !private ["So8NSObjectP", "sunRise"]
+- !private ["So8NSObjectP", "sunRiseLabel"]
+- !private ["So8NSObjectP", "sunSet"]
+- !private ["So8NSObjectP", "sunSetLabel"]
+- !private ["So8NSObjectP", "temperature"]
+- !private ["So8NSObjectP", "temperatureLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "timeZone"]
+- !private ["So8NSObjectP", "unixToUTC"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "windSpeed"]
+- !private ["So8NSObjectP", "windSpeedLabel"]
+- !private ["So14NSSecureCodingP", "current"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", "init"]
+- !private ["10RealmSwift6ObjectC", "cityName"]
+- !private ["10RealmSwift6ObjectC", "humidity"]
+- !private ["10RealmSwift6ObjectC", "information"]
+- !private ["10RealmSwift6ObjectC", "sunRise"]
+- !private ["10RealmSwift6ObjectC", "sunSet"]
+- !private ["10RealmSwift6ObjectC", "temperature"]
+- !private ["10RealmSwift6ObjectC", "timeZone"]
+- !private ["10RealmSwift6ObjectC", "windSpeed"]
+- !private ["7Combine16ObservableObjectP", "cityName"]
+- !private ["7Combine16ObservableObjectP", "humidity"]
+- !private ["7Combine16ObservableObjectP", "information"]
+- !private ["7Combine16ObservableObjectP", "sunRise"]
+- !private ["7Combine16ObservableObjectP", "sunSet"]
+- !private ["7Combine16ObservableObjectP", "temperature"]
+- !private ["7Combine16ObservableObjectP", "timeZone"]
+- !private ["7Combine16ObservableObjectP", "windSpeed"]
+- !private ["Sq", "font"]
+- !private ["Sq", "image"]
+- !private ["Sq", "text"]
+- !private ["10RealmSwift16OptionalProtocolP", "font"]
+- !private ["10RealmSwift16OptionalProtocolP", "image"]
+- !private ["10RealmSwift16OptionalProtocolP", "text"]
+- !private ["So13RLMObjectBaseC", "cityName"]
+- !private ["So13RLMObjectBaseC", "humidity"]
+- !private ["So13RLMObjectBaseC", "information"]
+- !private ["So13RLMObjectBaseC", "sunRise"]
+- !private ["So13RLMObjectBaseC", "sunSet"]
+- !private ["So13RLMObjectBaseC", "temperature"]
+- !private ["So13RLMObjectBaseC", "timeZone"]
+- !private ["So13RLMObjectBaseC", "windSpeed"]
+- !private ["Sm", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "cityName"]
+- !private ["10RealmSwift0A15CollectionValueP", "font"]
+- !private ["10RealmSwift0A15CollectionValueP", "humidity"]
+- !private ["10RealmSwift0A15CollectionValueP", "image"]
+- !private ["10RealmSwift0A15CollectionValueP", "information"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "sunRise"]
+- !private ["10RealmSwift0A15CollectionValueP", "sunSet"]
+- !private ["10RealmSwift0A15CollectionValueP", "temperature"]
+- !private ["10RealmSwift0A15CollectionValueP", "text"]
+- !private ["10RealmSwift0A15CollectionValueP", "timeZone"]
+- !private ["10RealmSwift0A15CollectionValueP", "windSpeed"]
+- !private ["10RealmSwift0A12OptionalTypeP", "init"]
+- !private ["10RealmSwift0A12SubscribableP", "cityName"]
+- !private ["10RealmSwift0A12SubscribableP", "humidity"]
+- !private ["10RealmSwift0A12SubscribableP", "information"]
+- !private ["10RealmSwift0A12SubscribableP", "sunRise"]
+- !private ["10RealmSwift0A12SubscribableP", "sunSet"]
+- !private ["10RealmSwift0A12SubscribableP", "temperature"]
+- !private ["10RealmSwift0A12SubscribableP", "timeZone"]
+- !private ["10RealmSwift0A12SubscribableP", "windSpeed"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "cityName"]
+- !private ["10RealmSwift14ThreadConfinedP", "humidity"]
+- !private ["10RealmSwift14ThreadConfinedP", "information"]
+- !private ["10RealmSwift14ThreadConfinedP", "sunRise"]
+- !private ["10RealmSwift14ThreadConfinedP", "sunSet"]
+- !private ["10RealmSwift14ThreadConfinedP", "temperature"]
+- !private ["10RealmSwift14ThreadConfinedP", "timeZone"]
+- !private ["10RealmSwift14ThreadConfinedP", "windSpeed"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- !private ["So21UIAppearanceContainerP", "DateFormatter"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "NSLocale"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "TimeZone"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColorImage"]
+- !private ["So21UIAppearanceContainerP", "checkDayOrNight"]
+- !private ["So21UIAppearanceContainerP", "cityNameLabel"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "getSunriseTimeString"]
+- !private ["So21UIAppearanceContainerP", "getSunsetTimeString"]
+- !private ["So21UIAppearanceContainerP", "humidityLabel"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "selectedLocation"]
+- !private ["So21UIAppearanceContainerP", "sunOrMoonImage"]
+- !private ["So21UIAppearanceContainerP", "sunRiseLabel"]
+- !private ["So21UIAppearanceContainerP", "sunSetLabel"]
+- !private ["So21UIAppearanceContainerP", "temperatureLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "unixToUTC"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "windSpeedLabel"]
+- !private ["So18UIContentContainerP", "Date"]
+- !private ["So18UIContentContainerP", "DateFormatter"]
+- !private ["So18UIContentContainerP", "Double"]
+- !private ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "NSLocale"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "TimeZone"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "backgroundColorImage"]
+- !private ["So18UIContentContainerP", "checkDayOrNight"]
+- !private ["So18UIContentContainerP", "cityNameLabel"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "getSunriseTimeString"]
+- !private ["So18UIContentContainerP", "getSunsetTimeString"]
+- !private ["So18UIContentContainerP", "humidityLabel"]
+- !private ["So18UIContentContainerP", "selectedLocation"]
+- !private ["So18UIContentContainerP", "sunOrMoonImage"]
+- !private ["So18UIContentContainerP", "sunRiseLabel"]
+- !private ["So18UIContentContainerP", "sunSetLabel"]
+- !private ["So18UIContentContainerP", "temperatureLabel"]
+- !private ["So18UIContentContainerP", "unixToUTC"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "windSpeedLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- !private ["So18UIFocusEnvironmentP", "DateFormatter"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "NSLocale"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "TimeZone"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColorImage"]
+- !private ["So18UIFocusEnvironmentP", "checkDayOrNight"]
+- !private ["So18UIFocusEnvironmentP", "cityNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "getSunriseTimeString"]
+- !private ["So18UIFocusEnvironmentP", "getSunsetTimeString"]
+- !private ["So18UIFocusEnvironmentP", "humidityLabel"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "selectedLocation"]
+- !private ["So18UIFocusEnvironmentP", "sunOrMoonImage"]
+- !private ["So18UIFocusEnvironmentP", "sunRiseLabel"]
+- !private ["So18UIFocusEnvironmentP", "sunSetLabel"]
+- !private ["So18UIFocusEnvironmentP", "temperatureLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "unixToUTC"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "windSpeedLabel"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So6UIFontC", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "font"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- !private ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLocale"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "TimeZone"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColorImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "checkDayOrNight"]
+- !private ["So30UIPasteConfigurationSupportingP", "cityNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "getSunriseTimeString"]
+- !private ["So30UIPasteConfigurationSupportingP", "getSunsetTimeString"]
+- !private ["So30UIPasteConfigurationSupportingP", "humidityLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "sunOrMoonImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "sunRiseLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "sunSetLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "temperatureLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "unixToUTC"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "windSpeedLabel"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Date"]
+- !private ["So11UIResponderC", "DateFormatter"]
+- ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "NSLocale"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "TimeZone"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", "WeatherModel"]
+- ["So11UIResponderC", "backgroundColorImage"]
+- ["So11UIResponderC", "checkDayOrNight"]
+- ["So11UIResponderC", "cityNameLabel"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "getSunriseTimeString"]
+- ["So11UIResponderC", "getSunsetTimeString"]
+- ["So11UIResponderC", "humidityLabel"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "returnButtonPressed"]
+- ["So11UIResponderC", "selectedLocation"]
+- ["So11UIResponderC", "sunOrMoonImage"]
+- ["So11UIResponderC", "sunRiseLabel"]
+- ["So11UIResponderC", "sunSetLabel"]
+- ["So11UIResponderC", "temperatureLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "unixToUTC"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "windSpeedLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- !private ["So30UIResponderStandardEditActionsP", "DateFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLocale"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "TimeZone"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColorImage"]
+- !private ["So30UIResponderStandardEditActionsP", "checkDayOrNight"]
+- !private ["So30UIResponderStandardEditActionsP", "cityNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "getSunriseTimeString"]
+- !private ["So30UIResponderStandardEditActionsP", "getSunsetTimeString"]
+- !private ["So30UIResponderStandardEditActionsP", "humidityLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "sunOrMoonImage"]
+- !private ["So30UIResponderStandardEditActionsP", "sunRiseLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "sunSetLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "temperatureLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "unixToUTC"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "windSpeedLabel"]
+- !private ["So16UIStateRestoringP", "Date"]
+- !private ["So16UIStateRestoringP", "DateFormatter"]
+- !private ["So16UIStateRestoringP", "Double"]
+- !private ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "NSLocale"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "TimeZone"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "backgroundColorImage"]
+- !private ["So16UIStateRestoringP", "checkDayOrNight"]
+- !private ["So16UIStateRestoringP", "cityNameLabel"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "getSunriseTimeString"]
+- !private ["So16UIStateRestoringP", "getSunsetTimeString"]
+- !private ["So16UIStateRestoringP", "humidityLabel"]
+- !private ["So16UIStateRestoringP", "selectedLocation"]
+- !private ["So16UIStateRestoringP", "sunOrMoonImage"]
+- !private ["So16UIStateRestoringP", "sunRiseLabel"]
+- !private ["So16UIStateRestoringP", "sunSetLabel"]
+- !private ["So16UIStateRestoringP", "temperatureLabel"]
+- !private ["So16UIStateRestoringP", "unixToUTC"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "windSpeedLabel"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- !private ["So18UITraitEnvironmentP", "DateFormatter"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "NSLocale"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "TimeZone"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColorImage"]
+- !private ["So18UITraitEnvironmentP", "checkDayOrNight"]
+- !private ["So18UITraitEnvironmentP", "cityNameLabel"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "getSunriseTimeString"]
+- !private ["So18UITraitEnvironmentP", "getSunsetTimeString"]
+- !private ["So18UITraitEnvironmentP", "humidityLabel"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "selectedLocation"]
+- !private ["So18UITraitEnvironmentP", "sunOrMoonImage"]
+- !private ["So18UITraitEnvironmentP", "sunRiseLabel"]
+- !private ["So18UITraitEnvironmentP", "sunSetLabel"]
+- !private ["So18UITraitEnvironmentP", "temperatureLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "unixToUTC"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "windSpeedLabel"]
+- !private ["So23UIUserActivityRestoringP", "Date"]
+- !private ["So23UIUserActivityRestoringP", "DateFormatter"]
+- !private ["So23UIUserActivityRestoringP", "Double"]
+- !private ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "NSLocale"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "TimeZone"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColorImage"]
+- !private ["So23UIUserActivityRestoringP", "checkDayOrNight"]
+- !private ["So23UIUserActivityRestoringP", "cityNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "getSunriseTimeString"]
+- !private ["So23UIUserActivityRestoringP", "getSunsetTimeString"]
+- !private ["So23UIUserActivityRestoringP", "humidityLabel"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "selectedLocation"]
+- !private ["So23UIUserActivityRestoringP", "sunOrMoonImage"]
+- !private ["So23UIUserActivityRestoringP", "sunRiseLabel"]
+- !private ["So23UIUserActivityRestoringP", "sunSetLabel"]
+- !private ["So23UIUserActivityRestoringP", "temperatureLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "unixToUTC"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "windSpeedLabel"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Date"]
+- !private ["So16UIViewControllerC", "DateFormatter"]
+- ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "NSLocale"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "TimeZone"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIFont"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", "WeatherModel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "backgroundColorImage"]
+- ["So16UIViewControllerC", "checkDayOrNight"]
+- ["So16UIViewControllerC", "cityNameLabel"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "getSunriseTimeString"]
+- ["So16UIViewControllerC", "getSunsetTimeString"]
+- ["So16UIViewControllerC", "humidityLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "returnButtonPressed"]
+- ["So16UIViewControllerC", "selectedLocation"]
+- ["So16UIViewControllerC", "sunOrMoonImage"]
+- ["So16UIViewControllerC", "sunRiseLabel"]
+- ["So16UIViewControllerC", "sunSetLabel"]
+- ["So16UIViewControllerC", "temperatureLabel"]
+- ["So16UIViewControllerC", "unixToUTC"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "windSpeedLabel"]
+- !private ["So14NSUserDefaultsC", "bool"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["7Weather0A11InformationC", "humidity"]
+- !private ["7Weather0A11InformationC", "sunRise"]
+- !private ["7Weather0A11InformationC", "sunSet"]
+- !private ["7Weather0A11InformationC", "temperature"]
+- !private ["7Weather0A11InformationC", "timeZone"]
+- !private ["7Weather0A11InformationC", "windSpeed"]
+- !private ["7Weather0A5ModelC", "cityName"]
+- !private ["7Weather0A5ModelC", "information"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "current"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColorImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkDayOrNight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSunriseTimeString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSunsetTimeString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "humidity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "humidityLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "information"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunOrMoonImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunRise"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunRiseLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sunSetLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "temperature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "temperatureLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unixToUTC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windSpeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windSpeedLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Double"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLocale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TimeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColorImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bool"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkDayOrNight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "font"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSunriseTimeString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSunsetTimeString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "humidity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "humidityLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "information"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunOrMoonImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunRise"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunRiseLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunSet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sunSetLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "temperature"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "temperatureLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unixToUTC"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windSpeed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windSpeedLabel"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "cityName"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "font"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "humidity"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "image"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "information"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sunRise"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sunSet"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "temperature"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "text"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "timeZone"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "windSpeed"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "s18AdditiveArithmeticP"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "So11NSFormatterC"
+- "SH"
+- "7Weather25InformationViewControllerC"
+- !private "Si"
+- !private "6Lottie14InterpolatableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSLocaleC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "10RealmSwift6ObjectC"
+- !private "7Combine16ObservableObjectP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- !private "So13RLMObjectBaseC"
+- !private "Sm"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10RealmSwift0A12SubscribableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "10Foundation8TimeZoneV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14NSUserDefaultsC"
+- !private "7Weather0A11InformationC"
+- !private "7Weather0A5ModelC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Modules/gooey_cell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POP.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Headers/gooey-cell-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/pop-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimator.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPVector.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPDefines.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatablePropertyTypes.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Headers/gooey_cell-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPGeometry.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/gooey-cell/gooey_cell.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/pop/pop.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/horkimlong/Desktop/Weather/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "de86f69c9de74460eed08b0ad62952d3"

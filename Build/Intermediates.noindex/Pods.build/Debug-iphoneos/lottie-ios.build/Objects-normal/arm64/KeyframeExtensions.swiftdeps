@@ -1,0 +1,180 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Lottie8KeyframeC", ""]
+- ["6Lottie8KeyframeC", "interpolatedProgress"]
+- ["6Lottie8KeyframeC", "interpolate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "<="
+- !private "??"
+- "AssignmentPrecedence"
+- "CGFloat"
+- !private "CGPoint"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Keyframe"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "cubicBezierInterpolate"]
+- !private ["s18AdditiveArithmeticP", "remap"]
+- !private ["SB", "cubicBezierInterpolate"]
+- !private ["SB", "remap"]
+- !private ["12CoreGraphics7CGFloatV", "cubicBezierInterpolate"]
+- !private ["12CoreGraphics7CGFloatV", "remap"]
+- !private ["So7CGPointV", "equalTo"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "isZero"]
+- !private ["So7CGPointV", "zero"]
+- !private ["s7CVarArgP", "cubicBezierInterpolate"]
+- !private ["s7CVarArgP", "remap"]
+- !private ["SL", "cubicBezierInterpolate"]
+- !private ["SL", "remap"]
+- !private ["s28CustomDebugStringConvertibleP", "equalTo"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isZero"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "cubicBezierInterpolate"]
+- !private ["s17CustomReflectableP", "equalTo"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isZero"]
+- !private ["s17CustomReflectableP", "remap"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "cubicBezierInterpolate"]
+- !private ["s23CustomStringConvertibleP", "remap"]
+- !private ["Se", "cubicBezierInterpolate"]
+- !private ["Se", "equalTo"]
+- !private ["Se", "init"]
+- !private ["Se", "isZero"]
+- !private ["Se", "pointValue"]
+- !private ["Se", "remap"]
+- !private ["Se", "zero"]
+- !private ["SE", "cubicBezierInterpolate"]
+- !private ["SE", "equalTo"]
+- !private ["SE", "init"]
+- !private ["SE", "isZero"]
+- !private ["SE", "pointValue"]
+- !private ["SE", "remap"]
+- !private ["SE", "zero"]
+- !private ["SQ", "cubicBezierInterpolate"]
+- !private ["SQ", "equalTo"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isZero"]
+- !private ["SQ", "remap"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByFloatLiteralP", "cubicBezierInterpolate"]
+- !private ["s25ExpressibleByFloatLiteralP", "remap"]
+- !private ["s27ExpressibleByIntegerLiteralP", "cubicBezierInterpolate"]
+- !private ["s27ExpressibleByIntegerLiteralP", "remap"]
+- !private ["s23ExpressibleByNilLiteralP", "zero"]
+- !private ["SF", "cubicBezierInterpolate"]
+- !private ["SF", "remap"]
+- !private ["SH", "cubicBezierInterpolate"]
+- !private ["SH", "remap"]
+- !private ["SH", "zero"]
+- !private ["6Lottie14InterpolatableP", "cubicBezierInterpolate"]
+- !private ["6Lottie14InterpolatableP", "equalTo"]
+- !private ["6Lottie14InterpolatableP", "init"]
+- !private ["6Lottie14InterpolatableP", "interpolateTo"]
+- !private ["6Lottie14InterpolatableP", "isZero"]
+- !private ["6Lottie14InterpolatableP", "pointValue"]
+- !private ["6Lottie14InterpolatableP", "remap"]
+- !private ["6Lottie14InterpolatableP", "zero"]
+- ["6Lottie8KeyframeC", "CGFloat"]
+- !private ["6Lottie8KeyframeC", "CGPoint"]
+- ["6Lottie8KeyframeC", "Keyframe"]
+- !private ["6Lottie8KeyframeC", "inTangent"]
+- ["6Lottie8KeyframeC", "interpolate"]
+- ["6Lottie8KeyframeC", "interpolatedProgress"]
+- !private ["6Lottie8KeyframeC", "isHold"]
+- !private ["6Lottie8KeyframeC", "outTangent"]
+- !private ["6Lottie8KeyframeC", "spatialInTangent"]
+- !private ["6Lottie8KeyframeC", "spatialOutTangent"]
+- !private ["6Lottie8KeyframeC", "time"]
+- !private ["6Lottie8KeyframeC", "value"]
+- !private ["Sj", "cubicBezierInterpolate"]
+- !private ["Sj", "remap"]
+- !private ["Sq", "zero"]
+- !private ["s13SignedNumericP", "cubicBezierInterpolate"]
+- !private ["s13SignedNumericP", "remap"]
+- !private ["Sx", "cubicBezierInterpolate"]
+- !private ["Sx", "remap"]
+- !private ["6Lottie8Vector2DV", "pointValue"]
+- !private ["6Lottie8Vector3DV", "pointValue"]
+- !private ["s15_CVarArgAlignedP", "cubicBezierInterpolate"]
+- !private ["s15_CVarArgAlignedP", "remap"]
+- !private ["s22_CVarArgPassedAsDoubleP", "cubicBezierInterpolate"]
+- !private ["s22_CVarArgPassedAsDoubleP", "remap"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "equalTo"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isZero"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s21_ObjectiveCBridgeableP", "cubicBezierInterpolate"]
+- !private ["s21_ObjectiveCBridgeableP", "equalTo"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isZero"]
+- !private ["s21_ObjectiveCBridgeableP", "remap"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- !private "SH"
+- !private "6Lottie14InterpolatableP"
+- "6Lottie8KeyframeC"
+- !private "Sj"
+- !private "Sq"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "6Lottie8Vector2DV"
+- !private "6Lottie8Vector3DV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/horkimlong/Desktop/Weather/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/horkimlong/Desktop/Weather/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5724123ba9560864453367ccfb507b1b"
