@@ -56,8 +56,6 @@ func initalizeCustomIndicator(){
     messageFrame.alpha = 0.8
     messageFrame.addSubview(activityIndicator)
     messageFrame.addSubview(strLabel)
-
-
 }
 
 func  start(){

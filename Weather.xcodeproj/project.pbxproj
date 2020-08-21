@@ -71,7 +71,7 @@
 		606DA49B24D10DD400BC4203 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		606DA49C24D10DD400BC4203 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		606DA49D24D10DD400BC4203 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		60A9E03C24A2B61E009FC6D5 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A9E03C24A2B61E009FC6D5 /* Today Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today Clima.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A9E03F24A2B61E009FC6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60A9E04124A2B61F009FC6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		60A9E04324A2B61F009FC6D5 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		60A9E03D24A2B61E009FC6D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60A9E03C24A2B61E009FC6D5 /* Weather.app */,
+				60A9E03C24A2B61E009FC6D5 /* Today Clima.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			);
 			name = Weather;
 			productName = Weather;
-			productReference = 60A9E03C24A2B61E009FC6D5 /* Weather.app */;
+			productReference = 60A9E03C24A2B61E009FC6D5 /* Today Clima.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -538,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZTH4C6ABZ2;
 				INFOPLIST_FILE = Weather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -545,10 +546,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.horkimlong.Weather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horkimlong.Today-Clima";
+				PRODUCT_NAME = "Today Clima";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -558,6 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZTH4C6ABZ2;
 				INFOPLIST_FILE = Weather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -565,10 +568,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.horkimlong.Weather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horkimlong.Today-Clima";
+				PRODUCT_NAME = "Today Clima";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

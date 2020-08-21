@@ -31,7 +31,7 @@
         <!--Information View Controller-->
         <scene sceneID="7sG-Gk-Hm4">
             <objects>
-                <viewController storyboardIdentifier="InfoVC" id="LI1-Wh-Xd4" customClass="InformationViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoVC" id="LI1-Wh-Xd4" customClass="InformationViewController" customModule="Today_Clima" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dlx-eU-ycl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,10 +149,9 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="77ºF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7k-SZ-XdF">
-                                        <rect key="frame" x="122" y="300" width="120" height="120"/>
+                                        <rect key="frame" x="132.5" y="300" width="99.5" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="0CD-Dh-4mb"/>
-                                            <constraint firstAttribute="width" constant="120" id="HdA-KK-z7H"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
@@ -197,7 +196,7 @@
         <!--Weather-->
         <scene sceneID="BBa-Td-ZnL">
             <objects>
-                <viewController id="oHM-u5-PoV" customClass="LocationViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oHM-u5-PoV" customClass="LocationViewController" customModule="Today_Clima" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k16-Um-TuP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,7 +205,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationWeatherCell" rowHeight="100" id="sKR-cs-Rjn" userLabel="LocationWeatherCell" customClass="LocationWeatherTableViewCell" customModule="Weather" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationWeatherCell" rowHeight="100" id="sKR-cs-Rjn" userLabel="LocationWeatherCell" customClass="LocationWeatherTableViewCell" customModule="Today_Clima" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sKR-cs-Rjn" id="lBR-kc-U7F">
@@ -329,7 +328,7 @@
         <!--City Add View Controller-->
         <scene sceneID="PAa-Z2-gSa">
             <objects>
-                <viewController storyboardIdentifier="CityVC" id="L9c-FK-dIL" customClass="CityAddViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CityVC" id="L9c-FK-dIL" customClass="CityAddViewController" customModule="Today_Clima" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8PC-kd-bTe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -360,7 +359,7 @@
                                 <rect key="frame" x="0.0" y="140" width="414" height="756"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FullCityNameCell" rowHeight="43.5" id="9XA-Us-H2A" customClass="FullCityNameTableViewCell" customModule="Weather" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FullCityNameCell" rowHeight="43.5" id="9XA-Us-H2A" customClass="FullCityNameTableViewCell" customModule="Today_Clima" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9XA-Us-H2A" id="wob-dV-vCy">

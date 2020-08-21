@@ -27,8 +27,6 @@ class LocationViewController: UIViewController {
     
     let reachability = try! Reachability()
     
-    //var indicator: ProgressIndicator?
-    
     var activityIndicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
     var VW_overlay: UIView = UIView()
 
@@ -77,7 +75,6 @@ class LocationViewController: UIViewController {
 
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
-//        locationManager.requestAlwaysAuthorization()
 
         weatherManager.delegate = self
         let tempUnit = UserDefaults.standard.bool(forKey: "TempUnit")

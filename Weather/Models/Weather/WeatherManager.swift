@@ -24,15 +24,7 @@ class WeatherManager {
     
     var cityManager = CityManager()
     
-//    func fetchWeather (cityName: String){
-//        let convertedCityName = cityName.replacingOccurrences(of: " ", with: "%20")
-//        let urlString: String = "\(weatherURL)&q=\(convertedCityName)"
-//        performRequest(with: urlString)
-//    }
-    
     func fetchWeather (latitude: Double, longitude: Double){
-//        self.longitude = longitude
-//        self.latitude = latitude
         let urlString: String = "\(weatherURL)&lat=\(latitude)&lon=\(longitude)"
         performRequest(with: urlString, latitude: latitude, longitude: longitude)
     }
@@ -93,8 +85,6 @@ class WeatherManager {
             let weatherInfo = WeatherInformation(temperature: temp, humidity: humid, pressure: pressure, windSpeed: speed, currentTime: currentTime, sunRise: sunRise, sunSet: sunSet, timeZone: timeZone, conditionId: weatherID, longitude: 0, latitude: 0)
         
             let weather = WeatherModel(cityName: name, information: weatherInfo)
-            
-           // weather.information?.fahrenheit = UserDefaults.standard.bool(forKey: "TempUnit")
             
             return weather
         } catch {

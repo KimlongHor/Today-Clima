@@ -9,7 +9,6 @@
 import UIKit
 import gooey_cell
 
-
 class LocationWeatherTableViewCell: GooeyEffectTableViewCell {
 
     @IBOutlet var backGroundImage: UIImageView!
@@ -20,11 +19,8 @@ class LocationWeatherTableViewCell: GooeyEffectTableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        //backGroundImage.bounds
-//        let shadowView = ShadowView()
 
         cityLabel.font = UIFont(name: "Roboto-Regular", size: 14)
-        //temperatureLabel.font = UIFont(name: "Roboto-Light", size: 35)
         
         backGroundImage.layer.cornerRadius = 20
         backGroundImage.layer.masksToBounds = true

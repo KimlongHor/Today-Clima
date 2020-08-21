@@ -49,8 +49,6 @@ extension CityAddViewController: UITableViewDataSource {
         //cell.backgroundColor = UIColor.clear
         return cell
     }
-    
-    
 }
 
 extension CityAddViewController: UITableViewDelegate {

@@ -22,7 +22,6 @@ struct LocationManager {
     func fetchLocation (str: String){
         let convertedStr = str.replacingOccurrences(of: " ", with: "%20")
         let urlString: String = "\(locationURL)\(convertedStr)"
-        //print(urlString)
         performRequest(with: urlString)
     }
     
@@ -38,7 +37,6 @@ struct LocationManager {
                 
                 if let safeData = data {
                     if let location = self.parseJSON(safeData){
-//                        print(location)
                         self.delegate?.didUpdateLocation(self, location: location)
                     }
                 }
